@@ -9,6 +9,8 @@
   <li>Создайте среду с помощью Python 3.10</li>
 
   <li>Активировать среду</li><br>
+  
+      conda create --name your_name python=3.10
 
 Требования к установке:
 
@@ -48,7 +50,7 @@
 
   <li>Активируйте свою среду:</li><br>
 
-      conda activate your_env_name  
+      conda activate your_name  
   
   <li>Путь от компакт-диска к проекту:</li><br>
 

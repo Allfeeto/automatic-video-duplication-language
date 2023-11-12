@@ -1,9 +1,13 @@
 
 <h1 align="center">Установка</h1>
 
-<li>Клонируйте это репозиторий</li>
 
-<li>Установите [conda](https://conda.io/projects/conda/en/latest/user-guide/install/)</li>
+[](https://conda.io/projects/conda/en/latest/user-guide/install/)
+
+<li>Клонируйте это репозиторий</li>
+<a href = 'https://conda.io/projects/conda/en/latest/user-guide/install/'>conda</a>
+
+<li>Установите [conda](https://conda.io/projects/conda/en/latest/user-guide/install/) </li>
 
 <li>Создайте среду с помощью Python 3.10</li>
 
@@ -57,7 +61,7 @@
 
 <li>output_language - язык, на который будет выполнен перевод. Предоставляется здесь (вы также можете найти его в коде (маппер))</li>
 
-<li>output_filename - имя файла выходного видео (.mp4)</li>
+<li>output_filename - имя файла выходного видео (.mp4)</li><br>
 
 ```python translate.py video_filename output_language -o output_filename```
 
@@ -68,30 +72,30 @@
 
 <li>video_filename - имя файла вашего входного видео (.mp4)</li>
 
-<li>output_filename - имя файла выходного видео (.mp4)</li>
+<li>output_filename - имя файла выходного видео (.mp4)</li><br>
 
 ```python speech_changer.py voice_filename video_filename -o output_filename```<br><br>
 
 
-Как это работает
+<h2>Как это работает</h2>
 
-Обнаружение сцен (PySceneDetect)https://github.com/Breakthrough/PySceneDetect
+Обнаружение сцен ([PySceneDetect](https://github.com/Breakthrough/PySceneDetect))
 
-Распознавание лиц (yolov8-face)https://github.com/akanametov/yolov8-face
+Распознавание лиц [yolov8-face](https://github.com/akanametov/yolov8-face)
 
-Повторная идентификация (deepface)https://github.com/serengil/deepface
+Повторная идентификация [deepface](https://github.com/serengil/deepface)
 
-Улучшение речи (MDXNet)https://huggingface.co/freyza/kopirekcover/blob/main/MDXNet.py
+Улучшение речи [MDXNet](https://huggingface.co/freyza/kopirekcover/blob/main/MDXNet.py)
 
-Транскрипция и ведение дневника говорящих (whisperX)https://github.com/m-bain/whisperX
+Транскрипция и ведение дневника говорящих [whisperX](https://github.com/m-bain/whisperX)
 
-Перевод текста (googletrans)https://pypi.org/project/googletrans/
+Перевод текста [googletrans](https://pypi.org/project/googletrans/)
 
-Клонирование голоса (TTS)https://github.com/coqui-ai/TTS
+Клонирование голоса [TTS](https://github.com/coqui-ai/TTS)
 
-Синхронизация губ (lipsync)https://github.com/mowshon/lipsync
+Синхронизация губ [lipsync](https://github.com/mowshon/lipsync)
 
-Восстановление лица (GFPGAN)https://github.com/TencentARC/GFPGAN
+Восстановление лица [GFPGAN](https://github.com/TencentARC/GFPGAN)
 
 
 

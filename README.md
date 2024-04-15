@@ -27,7 +27,7 @@
 
   <li>Загрузите веса с <a href='https://drive.google.com/file/d/1dYy24q_67TmVuv_PbChe2t1zpNYJci1J/view'>диска</a>, распакуйте загруженный файл в папку <b>weights</b></li>
 
-  <li>Установите <a href='https://ffmpeg.org/'>ffmpeg</a><br><br>
+  <li>установите <a href='https://ffmpeg.org/'>ffmpeg</a><br><br>
 
 
 <>bКонфигурации (config.json)</b>
